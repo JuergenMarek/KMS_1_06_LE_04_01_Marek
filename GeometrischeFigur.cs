@@ -164,9 +164,9 @@ sealed class Quadrat : GeometrischeFigur
     /// Konstruktor der Subklasse Quadrat
     /// </summary>
     /// <param name="seitenlaengequadrat">Die Seitenlänge des Quadrats</param>
-    public Quadrat(double seitenlaengequadrat)
+    public Quadrat(double seitenlaengeQuadrat)
     {
-        SeitenlaengeQuadrat = seitenlaengequadrat;
+        SeitenlaengeQuadrat = seitenlaengeQuadrat;
     }
 
     /// <summary>
